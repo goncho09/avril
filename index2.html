@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2>Yo tambien te quiero miamor sos la mejor novia!!!!</h2>
+    </div>
+</body>
+
+<script>
+    let boton_no = document.getElementsByClassName('move-randomly')[0];
+
+    boton_no.onmouseover = () => {
+        boton_no.style.position = "absolute";
+        boton_no.style.left = Math.random() * 500 + 'px';
+        boton_no.style.top = Math.random() * 500 + 'px';
+    }
+</script>
+
+</html>
